@@ -7,34 +7,20 @@
     <title>Primer proyecto de calculadora</title>
 </head>
 <body>
-    <h1>La Super Calculadora</h1>
-    <h2>La Solucion</h2>
-    <hr>
-    <div class="calculadora">
-        <input type="button" id="pantalla" readonly>
-        <br>
-        <input type="button" value="1" onclick="agregar('1')">
-        <input type="button" value="2" onclick="agregar('2')">
-        <input type="button" value="3" onclick="agregar('3')">
-        <input type="button" value="+" onclick="agregar('+')">
-        <br>
-        <input type="button" value="4" onclick="agregar('4')">
-        <input type="button" value="5" onclick="agregar('5')">
-        <input type="button" value="6" onclick="agregar('6')">
-        <input type="button" value="-" onclick="agregar('-')">
-        <br>
-        <input type="button" value="7" onclick="agregar('7')">
-        <input type="button" value="8" onclick="agregar('8')">
-        <input type="button" value="9" onclick="agregar('9')">
-        <input type="button" value="*" onclick="agregar('*')">
-        <br>
-        <input type="button" value="0" onclick="agregar('0')">
-        <input type="button" value="." onclick="agregar('.')">
-        <input type="button" value="/" onclick="agregar('/')">
-        <input type="button" value="=" onclick="calcular()">
-        <br>
-        <input type="button" value="C" onclick="recetear()">
+    <ul>
+        <li><a>Barcelona</a></li>
+        <li><a>Roma</a></li>
+        <li><a>Paris</a></li>
+        <li><a>Londres</a></li>
+    </ul>
+
+    <div class="contenedor">
+        <h2 id="titulo"></h2>
+        <h3 id="subtitulo"></h3>
+        <p id="parrafo"></p>
+        <h4 id="precio"></h4>
     </div>
-    <script src="script.js"></script>
+
+    <script type="module" src="script.js"></script>
 </body>
 </html>
